@@ -10,7 +10,7 @@ class Student < User
     @knowledge << "Ruby framework Rails gem bundle update"
   end
 
-  def knowledge(array)
+  def knowledge(@knowledge)
     @knowledge
   end
 end
